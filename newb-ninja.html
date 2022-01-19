@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	   <meta charset="utf-8">
+	   <title>Newb Ninja</title> 
+	   <!-- css -->
+	   <link rel="stylesheet" type="text/css" href="style.css">
+	   <!-- End css link-->
+	   <!-- Bootstrap responsive link -->
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	   <!-- End bootstrap responsive link -->
+	</head>
+
+	<body>
+		<div class="row">
+			<!-- logo top left-->
+			<div id="logo" class="col-2 col-sm-3 col-md-4 col-xl-5">
+				<img src="logo.png">
+			</div>
+			<!-- End logo top left-->
+			<!-- Thunder top right-->
+			<canvas id="thunder"></canvas>
+			<!-- End thunder top right-->
+		</div>
+		<div class="row">
+			<!-- Circle center -->
+			<canvas id="circle1"></canvas>
+			<canvas id="circle2"></canvas>
+			<canvas id="circle3"></canvas>
+			<canvas id="circle4"></canvas>
+			<!-- End circle center -->
+			<!--  Image center inside circle-->
+
+			<div class="slideshow-container">				
+				<div class="mySlides">
+					<div class="numbertext">Facebook</div>
+					<img src="char2.png" style="max-width:100%;">
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">Twitter</div>
+					<img src="char3.png" style="max-width:100%">
+				</div>
+
+				<div class="mySlides">
+				    <div class="numbertext">Linkedln</div>
+				    <img src="char4.png" style="max-width:100%">
+				</div>
+			</div>
+			<!-- End Image center inside circle-->
+		</div>
+		<div class="row">
+			<!-- Social -->
+			<div style="text-align:center" class="social">
+				<span>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				</span>
+			  	<span class="dot" onclick="currentSlide(1)" onmouseover="currentSlide(1)">
+			  		<img src="social-1.png">
+			  	</span>
+			  	<span class="dot" onclick="currentSlide(2)" onmouseover="currentSlide(2)">
+			  		<img src="social-2.png">
+			  	</span>
+			  	<span class="dot" onclick="currentSlide(3)" onmouseover="currentSlide(3)">
+			  		<img src="social-4.png">
+			  	</span>
+			  	<span>
+			  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			  	</span>
+			</div> 
+			<!-- End social-->
+		</div>	
+		<div class="menu" style="text-align:center">
+			<span>
+			    <a class="nav-link" href="https://newb-ninja.com">Visit Blog 1</a>
+			 </span>
+			 <span>
+			    <a class="nav-link" href="https://newb-ninja.com">Visit Blog 2</a>
+			 </span>
+			 <span>
+			    <a class="nav-link" href="https://newb-ninja.com">Visit Blog 3</a>
+			 </span>
+		</div>	
+		<div class="row">
+			<!-- Symbol bottom right -->
+			<div id="symbol" class="col-4 col-sm-5 col-md-6 col-xl-7">
+				<img src="symbol.png" >
+			</div>
+			<div id="star" class="col-4 col-sm-5 col-md-6 col-xl-7">
+				<img src="star.png">
+			</div>					
+			<!-- End symbol bottom right -->
+		</div>	 	
+	</body>
+	<footer>
+		<script language="javascript" src="javascript.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</footer>
+</html>
